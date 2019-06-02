@@ -38,12 +38,18 @@ main {
     font-size: 1.5rem;
 }
 .bg-dark {
+    background-color: #224358!important;
+}
+.btn-dark {
     background: #224358;
-    color: #224358;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-left: 1rem;
     padding-right: 1rem;
+    color: #dbe1e5;
+}
+.navbar-expand-lg .navbar-nav .nav-link a:hover {
+    color: #fff;
 }
 .imgBox {
     max-height: 330px;
@@ -63,6 +69,7 @@ p:last-child, li:last-child {
 }
 h3 {
     padding-top: 3rem;
+    color: #224358;
 }
 .btn {
     margin: 1rem;
