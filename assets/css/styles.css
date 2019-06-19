@@ -8,7 +8,7 @@ header {
     z-index: 100;
 }
 main {
-    margin-top: 21rem;
+    margin-top: 17rem;
 }
 .centered {
     position: relative;
@@ -87,7 +87,7 @@ h3.lead {
     padding-top: 10px;
 }
 .margin-bottom {
-    margin-bottom: 2rem;
+    margin-bottom: 4.5rem;
 }
 .anchor {
   display: block;
@@ -98,6 +98,9 @@ h3.lead {
 
 /* media queries */
 @media screen and (max-width: 640px) {
+    main {
+        margin-top: 9rem;
+    }
     .jumbotron {
         padding: 1rem 0;
     }
@@ -111,7 +114,10 @@ h3.lead {
         max-width: 100%;
     }
     .anchor {
-        height: 55px; /*same height as header*/
-        margin-top: -55px; /*same height as header*/
+        height: 155px; /*same height as header*/
+        margin-top: -155px; /*same height as header*/
+    }
+    .margin-bottom {
+        margin-bottom: 5.8rem;
     }
 }
